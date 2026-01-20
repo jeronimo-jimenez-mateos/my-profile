@@ -218,7 +218,7 @@ const GitProfile = ({ config }: { config: Config }) => {
                     />
                   )}
                   {sanitizedConfig.experiences.length !== 0 && (
-                    <ExperienceCard
+                    <EducationCard
                       loading={loading}
                       experiences={sanitizedConfig.experiences}
                     />
@@ -230,7 +230,7 @@ const GitProfile = ({ config }: { config: Config }) => {
                     />
                   )}
                   {sanitizedConfig.educations.length !== 0 && (
-                    <EducationCard
+                    <ExperienceCard
                       loading={loading}
                       educations={sanitizedConfig.educations}
                     />
