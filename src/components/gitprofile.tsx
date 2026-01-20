@@ -217,10 +217,10 @@ const GitProfile = ({ config }: { config: Config }) => {
                       skills={sanitizedConfig.skills}
                     />
                   )}
-                  {sanitizedConfig.experiences.length !== 0 && (
+                  {sanitizedConfig.educations.length !== 0 && (
                     <EducationCard
                       loading={loading}
-                      experiences={sanitizedConfig.experiences}
+                      educations={sanitizedConfig.educations}
                     />
                   )}
                   {sanitizedConfig.certifications.length !== 0 && (
@@ -229,10 +229,10 @@ const GitProfile = ({ config }: { config: Config }) => {
                       certifications={sanitizedConfig.certifications}
                     />
                   )}
-                  {sanitizedConfig.educations.length !== 0 && (
+                  {sanitizedConfig.experiences.length !== 0 && (
                     <ExperienceCard
                       loading={loading}
-                      educations={sanitizedConfig.educations}
+                      experiences={sanitizedConfig.experiences}
                     />
                   )}
                 </div>
