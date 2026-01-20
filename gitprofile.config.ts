@@ -124,7 +124,7 @@ const CONFIG = {
   // Track visitor interaction and behavior. https://www.hotjar.com
   blog: {
     source: 'dev', // medium | dev
-    username: , // to hide blog section, keep it empty
+    username: 'arifszn', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   themeConfig: {
