@@ -120,7 +120,6 @@ const CONFIG = {
   ],
   // Display articles from your medium or dev account. (Optional)
   // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
     defaultTheme: 'lofi',
 
