@@ -28,11 +28,6 @@ const CONFIG = {
         projects: ['jeronimo-jimenez-mateos/LLM-Robotics'], // List of repository names to display.
       },
     },
-    external: {
-      header: 'My Projects',
-      projects: [],
-      // To hide the `External Projects` section, keep it empty.
-    },
   },
   seo: { title: 'Portfolio of Jeronimo Jimenez', description: '', imageURL: '' },
   social: {
