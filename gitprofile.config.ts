@@ -115,7 +115,7 @@ const CONFIG = {
       authors: 'Jerónimo Manuel Jiménez Mateos',
       link: 'https://repositorio.uloyola.es/bitstream/handle/20.500.12412/6733/TFM%20Jer%C3%B3nimo%20Manuel%20Jim%C3%A9nez.pdf',
       description:
-        'Master's Thesis at Universidad Loyola.',
+        'Masters Thesis at Universidad Loyola.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
